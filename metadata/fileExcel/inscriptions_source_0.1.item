@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_pdTNgbkEEfClPfHYHw2hvg" name="inscriptions_source" dataPackage="_pdTNgrkEEfClPfHYHw2hvg" Server="Localhost 127.0.0.1" FilePath="C:/TOS_DI-20161216_1026-V6.3.1/TOS_DI-20161216_1026-V6.3.1/workspace/BI_PROCESSUSETL/Fichiers Excels Inputs/inscriptions.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pdTNgrkEEfClPfHYHw2hvg" name="default" dataManager="_pdTNgbkEEfClPfHYHw2hvg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pdTNg7kEEfClPfHYHw2hvg" id="_lMtiELkEEfClPfHYHw2hvg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_llGeYLl8EfCH_oByDHwS5w" label="student_id" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_llGeYbl8EfCH_oByDHwS5w" label="code_filiere" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_llGeYrl8EfCH_oByDHwS5w" label="date_inscription" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_llGeY7l8EfCH_oByDHwS5w" label="statut_type" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_llGeZLl8EfCH_oByDHwS5w" label="frais_scolarite" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_llGeZbl8EfCH_oByDHwS5w" label="is_new" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_llGeZrl8EfCH_oByDHwS5w" label="source_system" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
